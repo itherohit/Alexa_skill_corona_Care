@@ -1,0 +1,582 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "corona care",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "exit",
+                        "cancel",
+                        "Thank you"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WhatIsCorona",
+                    "slots": [],
+                    "samples": [
+                        "describe corona",
+                        "describe corona virus",
+                        "meaning of corona",
+                        "meaning of corona virus",
+                        "define corona virus",
+                        "corona virus explain me",
+                        "corona explain",
+                        "what is the corona virus",
+                        "explain about the corona virus",
+                        "explain about corona ",
+                        "what is the corona",
+                        "explain me aboout the corona virus",
+                        "explain me corona ",
+                        "corona",
+                        "corona virus",
+                        "explain corona ",
+                        "tell me something about corona",
+                        "what is corona disease",
+                        "what is corona virus",
+                        "what is corona"
+                    ]
+                },
+                {
+                    "name": "WhatIsCovid",
+                    "slots": [],
+                    "samples": [
+                        "descibe covid",
+                        "explain covid",
+                        "what is covid",
+                        "define covid nineteen",
+                        "describe covid nineteen",
+                        "what is the meaning of covid nineteen",
+                        "meaning of covid nineteen",
+                        "covid nineteen explain",
+                        "explain covid nineteen virus",
+                        "what are covid nineteen",
+                        "tell me about the covid nineteen",
+                        "tell me something about covid nineteen",
+                        "covid nineteen virus",
+                        "covid nineteen",
+                        "explain the covid nineteen",
+                        "explain covid nineteen",
+                        "what is the covid nineteen",
+                        "what is covid nineteen"
+                    ]
+                },
+                {
+                    "name": "Symptoms",
+                    "slots": [],
+                    "samples": [
+                        "tell symtoms",
+                        "tell  symptoms of corona virus",
+                        "tell me the symptoms ",
+                        "explain the symptoms",
+                        "tell the symptoms",
+                        "symptoms of the disease",
+                        "symptoms of corona virus",
+                        "symptoms",
+                        "what are the symptoms of covid",
+                        "explain the symptoms of covid nineteen",
+                        "what are the symptoms of corona ",
+                        "what are the symptoms of corona virus",
+                        "tell the symptoms of corona virus",
+                        "corona symptoms",
+                        "tell the symptoms of corona",
+                        "explain the symptoms of corona ",
+                        "symptoms of corona",
+                        "what are the symptoms of covid nineteen"
+                    ]
+                },
+                {
+                    "name": "Spread",
+                    "slots": [],
+                    "samples": [
+                        "speard of covid nineteen virus",
+                        "how covid nineteen is spread",
+                        "explain speard of covid nineteen",
+                        "speard of covid nineteen",
+                        "spread of corona",
+                        "corona virus spread",
+                        "how is the virus spread",
+                        "how covid nineteen is speard",
+                        "speard of corona",
+                        "how covid is speard",
+                        "how covid spread",
+                        "how does covid spread"
+                    ]
+                },
+                {
+                    "name": "AirSpread",
+                    "slots": [],
+                    "samples": [
+                        "spread of corona in air",
+                        "corona through air ",
+                        "can covid spread through air",
+                        "can covid nineteen spread through air",
+                        "can corona spread through air ",
+                        "air spread",
+                        "Can the virus that causes corona be transmitted through the air",
+                        "Can the virus that causes covid nineteen be transmitted through the air"
+                    ]
+                },
+                {
+                    "name": "NoSymptomSpread",
+                    "slots": [],
+                    "samples": [
+                        "can it spread from a no symptom person",
+                        "corona caused with no symptoms",
+                        "can i get from a person who has no symptoms",
+                        "will it spread from person who has no symptoms",
+                        "corona from person with no symptoms",
+                        "Can Covid nineteen be caught from a person who has no symptoms"
+                    ]
+                },
+                {
+                    "name": "Prevention",
+                    "slots": [],
+                    "samples": [
+                        "prevention for virus",
+                        "prevention for corona virus",
+                        "preventions for corona virus",
+                        "prevention",
+                        "preventions",
+                        "how to prevent corona virus",
+                        "how to prevent covid nineteen",
+                        "prevention for covid ",
+                        "tell me the preventions corona virus",
+                        "tell me the preventions for corona",
+                        "tell me the protection measures for covid",
+                        "tell me the preventions",
+                        "how to protect myself",
+                        "how to protect myself from corona",
+                        "protection measures for covid nineteen",
+                        "protection measures for corona",
+                        "how to avoid corona ",
+                        "explain the prevention",
+                        "what is the prevention for corona virus",
+                        "what is the prevention for covid nineteen",
+                        "prevention for covid nineteen",
+                        "how to prevent corona",
+                        "what is the prevention for corona",
+                        "prevention for corona ",
+                        "how to prevent the speard of covid nineteen"
+                    ]
+                },
+                {
+                    "name": "CatchCovid",
+                    "slots": [],
+                    "samples": [
+                        "tell whether i will catch corona",
+                        "tell whether i will catch covid nineteen",
+                        "tell whether i will get covid nineteen",
+                        "tell whether i will get corona",
+                        "will i catch covid nineteen",
+                        "will i catch corona ",
+                        "will i get corona",
+                        "will i get covid nineteen"
+                    ]
+                },
+                {
+                    "name": "WorryCovid",
+                    "slots": [],
+                    "samples": [
+                        "worry about covid nineteen",
+                        "worry about corona",
+                        "should i feel sad about covid nineteen",
+                        "should i feel sad about corona virus",
+                        "should i worry about covid nineteen",
+                        "should i worry about corona"
+                    ]
+                },
+                {
+                    "name": "WhoHighRisk",
+                    "slots": [],
+                    "samples": [
+                        "which person will have severe illness",
+                        "risk of developing severe illness",
+                        "who will get severe illness",
+                        "who is at risk of developing severe illness"
+                    ]
+                },
+                {
+                    "name": "AntiEffect",
+                    "slots": [],
+                    "samples": [
+                        "antibiotics cure covid nineteen",
+                        "antibiotics cure corona",
+                        "will antibiotics cure covid nineteen",
+                        "will antibiotics cure corona",
+                        "antibiotics to treat covid nineteen",
+                        "antibiotics to treat corona",
+                        "antibiotics for corona",
+                        "antibiotics for covid nineteen",
+                        "antibiotics will cure covid nineteen",
+                        "antibiotics will cure corona ",
+                        "will antibiotics help to cure corona",
+                        "are antibiotics effective for covid nineteen"
+                    ]
+                },
+                {
+                    "name": "MedPrevent",
+                    "slots": [],
+                    "samples": [
+                        "tell me whether medicines will protect covid nineteen",
+                        "tell me whether medicines will protect corona",
+                        "medicines will cure covid nineteen",
+                        "medicines will cure corona",
+                        "will therapies prevent covid nineteen",
+                        "will therapies prevent corona",
+                        "will medicines prevent corona",
+                        "will medicines prevent covid nineteen",
+                        "are there any medicines to prevent covid nineteen",
+                        "are there any medicines to prevent corona"
+                    ]
+                },
+                {
+                    "name": "IsVaccine",
+                    "slots": [],
+                    "samples": [
+                        "tell about the drugs for corona",
+                        "tell about the drugs for covid nineteen",
+                        "tell about the vaccines for covid nineteen",
+                        "tell about the vaccines for corona",
+                        "drug for corona",
+                        "drug for covid nineteen",
+                        "is there a drug for corona",
+                        "treatment for covid nineteen",
+                        "treatment for corona",
+                        "vaccines for covid nineteen",
+                        "vaccines for corona",
+                        "is there a vaccine for corona",
+                        "is there a vaccine for covid nineteen"
+                    ]
+                },
+                {
+                    "name": "WearMask",
+                    "slots": [],
+                    "samples": [
+                        "mask important for covid nineteen",
+                        "mask important for corona",
+                        "should i wear mask to protect myself from covid nineteen",
+                        "should i wear mask to protect myself from corona",
+                        "should i wear mask to protect myself",
+                        "will mask prevent covid nineteen",
+                        "will mask prevent corona",
+                        "mask to prevent covid nineteen",
+                        "mask to prevent corona",
+                        "will mask protect me",
+                        "is mask needed for corona",
+                        "should i wear"
+                    ]
+                },
+                {
+                    "name": "Isolation",
+                    "slots": [],
+                    "samples": [
+                        "tell about the incubation period",
+                        "tell about the isolation period",
+                        "what is the isolation period",
+                        "what is the incubation period",
+                        "isolation period for covid nineteen",
+                        "isolation period for corona",
+                        "incubation period for covid nineteen",
+                        "incubation period for corona"
+                    ]
+                },
+                {
+                    "name": "AnimalSource",
+                    "slots": [],
+                    "samples": [
+                        "can animals spread corona",
+                        "can animals spread covid nineteen",
+                        "can i get covid nineteen from animals",
+                        "can i get corona virus from animals",
+                        "animals will spread covid nineteen",
+                        "animals will spread corona virus",
+                        "animals will spread corona ",
+                        "will animals spread covid nineteen",
+                        "will animals spread corona",
+                        "animals transmit covid nineteen",
+                        "animals transmit corona virus",
+                        "will animals infect humans",
+                        "humans infected form animals"
+                    ]
+                },
+                {
+                    "name": "PetCovid",
+                    "slots": [],
+                    "samples": [
+                        "can my pet give me covid nineteen",
+                        "can my pet give me corona",
+                        "covid nineteen from pet",
+                        "will my pet give me covid nineteen",
+                        "will my pet give me corona virus",
+                        "covid nineteen from my pet",
+                        "corona from my pet",
+                        "can i get covid nineteen from my pet",
+                        "can my pet infect me",
+                        "can i get corona from my pet"
+                    ]
+                },
+                {
+                    "name": "VirusSurvive",
+                    "slots": [],
+                    "samples": [
+                        "how long corona virus will survive in the surface",
+                        "lifetime of corona virus in surface",
+                        "covid nineteen on surface",
+                        "how long corona virus will survive in surface",
+                        "what is the lifetime of corona virus",
+                        "lifetime of corona virus",
+                        "how long the covid nineteen survive",
+                        "how long the corona virus survive",
+                        "virus lifetime",
+                        "virus survive",
+                        "how long the virus survive"
+                    ]
+                },
+                {
+                    "name": "TotalCases",
+                    "slots": [],
+                    "samples": [
+                        "total cases",
+                        "corona cases ",
+                        "corona cases in total",
+                        "how many people are affected by covid nineteen",
+                        "how many people are affected by corona virus",
+                        "what is the total number of covid nineteen cases in the world",
+                        "what is the total number of corona cases in the world",
+                        "tell the corona case count",
+                        "tell the total count",
+                        "what is the total number of covid nineteen",
+                        "what is the total number of covid nineteen cases",
+                        "what is the total number of corona cases",
+                        "total cases in corona",
+                        "corona cases count in the world",
+                        "corona count",
+                        "total corona cases in the world",
+                        "Total cases in the world",
+                        "how many people are affected by corona",
+                        "tell me the total covid nineteen cases",
+                        "tell me the total corona cases",
+                        "what is the covid nineteen case count",
+                        "what is the corona case count",
+                        "total corona cases",
+                        "covid nineteen cases count",
+                        "corona cases count",
+                        "total number of corona cases n the world",
+                        "total number of cases in the world"
+                    ]
+                },
+                {
+                    "name": "DeathCases",
+                    "slots": [],
+                    "samples": [
+                        "total number of dead count due to covid nineteen",
+                        "total number of dead count due to corona virus",
+                        "total number of dead count",
+                        "total number of dead cases",
+                        "number of people died",
+                        "how people died due to corona",
+                        "dead cout",
+                        "dead number",
+                        "dead due to corona care",
+                        "deads due to corona",
+                        "deads due to corona virus",
+                        "deads count",
+                        "total number of deads",
+                        "how many people are dead by covid nineteen",
+                        "how many people are dead due to corona",
+                        "dead covid nineteen cases",
+                        "dead corona cases",
+                        "dead cases",
+                        "dead casescount",
+                        "what is the total death count",
+                        "total death count due to covid nineteen",
+                        "total death count due to corona",
+                        "total death counts",
+                        "death count",
+                        "tell the total number of deaths",
+                        "how many people died due to corona",
+                        "deaths due to covid nineteen",
+                        "deaths due to corona virus",
+                        "deaths",
+                        "how many deaths",
+                        "total deaths cases",
+                        "corona death cases ",
+                        "corona death cases in total",
+                        "how many people are death by covid nineteen",
+                        "how many people are dead by corona virus",
+                        "what is the total number of death cases in the world",
+                        "tell the corona case death count",
+                        "tell the death count",
+                        "what is the total number of deaths covid nineteen",
+                        "what is the total number of covid nineteen death cases",
+                        "total death cases in corona",
+                        "corona deat cases count in the world",
+                        "corona death count",
+                        "total death corona cases in the world",
+                        "Total death cases in the world",
+                        "how many people are death by corona",
+                        "covid nineteen death cases count",
+                        "corona death cases count"
+                    ]
+                },
+                {
+                    "name": "RecoveryCases",
+                    "slots": [],
+                    "samples": [
+                        "how many people got rid of covid nineteen",
+                        "how many people got rid of corona virus",
+                        "total count of recovered people",
+                        "how people got recovered",
+                        "recovered ",
+                        "recovered count",
+                        "recovery cases",
+                        "total number of recovery count due to covid nineteen",
+                        "total number of recovery count due to corona virus",
+                        "total number of recovered count",
+                        "total number of recovery cases",
+                        "number of people recovered",
+                        "how people recovered due to corona",
+                        "recovery cout",
+                        "recovered number",
+                        "recovered due to corona care",
+                        "recovery due to corona",
+                        "recovery due to corona virus",
+                        "total number of recovery",
+                        "how many people are recovered from covid nineteen",
+                        "how many people are recovered from corona",
+                        "recovered covid nineteen cases",
+                        "Recovered corona cases",
+                        "Recovered cases",
+                        "recoverd cases count",
+                        "what is the total recovery count",
+                        "total recovery count due to covid nineteen",
+                        "total recovery count due to corona",
+                        "total recovery counts",
+                        "recovery count",
+                        "tell the total number of recovered",
+                        "Recovery due to covid nineteen",
+                        "recovered due to corona virus",
+                        "how many recovery",
+                        "total recovered cases",
+                        "corona recovered cases ",
+                        "corona recovery cases in total",
+                        "how many people are recovered from corona virus",
+                        "what is the total number of recovered cases in the world",
+                        "tell the corona case recovered count",
+                        "tell the recovery count",
+                        "what is the total number of recovered covid nineteen",
+                        "what is the total number of covid nineteen recovered cases",
+                        "total recovered cases in corona",
+                        "corona recoveredrecovered cases count in the world",
+                        "corona recovered count",
+                        "total recovered corona cases in the world",
+                        "Total recovered cases in the world",
+                        "how many people are recovered by corona",
+                        "covid nineteen recovered cases count",
+                        "corona recovered cases count"
+                    ]
+                },
+                {
+                    "name": "CountryInfo",
+                    "slots": [
+                        {
+                            "name": "country",
+                            "type": "AMAZON.Country"
+                        }
+                    ],
+                    "samples": [
+                        "info about {country}",
+                        "about {country}",
+                        "total {country} cases",
+                        "total corona cases in {country}",
+                        "total cases in {country}",
+                        "{country} cases",
+                        "tell me something about the {country}",
+                        "tell me something about {country}",
+                        "counts on {country}",
+                        "information about the {country}",
+                        "tell something about {country}",
+                        "tell me about {country}",
+                        "{country} information about covid nineteen",
+                        "{country} information about corona virus",
+                        "{country} information",
+                        "tell the details about {country}",
+                        "details about {country}",
+                        "corona cases in {country}",
+                        "know about {country}",
+                        "tell the status about {country}",
+                        "give information about {country}",
+                        "information about {country}",
+                        "status about {country}",
+                        "tell about {country}",
+                        "{country}"
+                    ]
+                },
+                {
+                    "name": "YesIntent",
+                    "slots": [],
+                    "samples": [
+                        "i have",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "NoIntent",
+                    "slots": [],
+                    "samples": [
+                        "i have not",
+                        "i haven't",
+                        "no"
+                    ]
+                },
+                {
+                    "name": "CheckRisk",
+                    "slots": [],
+                    "samples": [
+                        "risk by covid nineteen",
+                        "risk by corona virus",
+                        "check my risk corona",
+                        "risk of covid nineteen",
+                        "risk of corona",
+                        "risk ",
+                        "know my risk",
+                        "my risk",
+                        "tell risk ",
+                        "risk checker",
+                        "risk for covid nineteen",
+                        "risk for corona virus",
+                        "check my risk"
+                    ]
+                },
+                {
+                    "name": "SongIntent",
+                    "slots": [],
+                    "samples": [
+                        "play corona songs",
+                        "corona songs",
+                        "covid nineteen songs",
+                        "song for covid nineteen",
+                        "song for corona",
+                        "play songs",
+                        "corona song",
+                        "play corona song"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
