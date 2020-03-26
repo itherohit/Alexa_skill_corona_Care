@@ -20,3 +20,6 @@ Please consider these links for testing. I am so sorry that i got some problem w
 #Do Consider.
 1)https://alexaskillcoronacare.s3-ap-northeast-1.amazonaws.com/VID_20200326_134423.mp4
 2)https://alexaskillcoronacare.s3-ap-northeast-1.amazonaws.com/VID_20200326_135256.mp4
+
+TESTING ALL FEATURES:
+https://alexaskillcoronacare.s3-ap-northeast-1.amazonaws.com/VID_20200326_144930.mp4
