@@ -14,3 +14,9 @@ You have to paste the .json file in the json editor of your skill.
 lambda_function.py in the aws lambda function.
 Add trigger to the lambda function with alexa skill's kit
 In developer console of your skill add your endpoint.(add aws lambda link)
+
+
+Please consider these links for testing. I am so sorry that i got some problem while uploading my video's in youtube.
+#Do Consider.
+1)https://alexaskillcoronacare.s3-ap-northeast-1.amazonaws.com/VID_20200326_134423.mp4
+2)https://alexaskillcoronacare.s3-ap-northeast-1.amazonaws.com/VID_20200326_135256.mp4
